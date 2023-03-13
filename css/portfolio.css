@@ -1,13 +1,23 @@
-*{
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
-    
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
 }
-.nav-title{
-    font-weight: 800;
-    font-size: 45px;
-           }
-.text-primary{
-    color: #FD6E0A
-    ;
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 200px;
+}
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
+}
+nav ul {
+  display: flex;
+}
+nav li{
+    list-style: none;
+    margin: 50px;
+}
+.text-primary {
+  color: #fd6e0a;
 }
