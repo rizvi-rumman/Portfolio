@@ -67,6 +67,9 @@ main {
   max-width: 900px;
   margin: 0 auto;
 }
+section{
+  margin-top: 130px;
+}
 .about {
   margin-top: 50 px;
   background-color: #fff8f3;
@@ -76,7 +79,7 @@ main {
 }
 .section-title {
   text-align: center;
-  margin-top: 60px;
+  margin-top: 30px;
   margin-bottom: 30px;
   font-size: 35px;
   font-weight: 700;
@@ -98,21 +101,24 @@ main {
   font-weight: 700;
   font-size: 15px;
 }
+.What-I-do{
+  margin-top: 130px;
+}
 .skill-container {
   display: flex;
-  gap: 14px;
+  gap: 20px;
 }
 .skill {
   background: #ffffff;
   box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
   border-radius: 5px;
-  padding: 30px;
+  padding: 20px;
 }
 .skill-title {
   font-weight: 700;
   font-size: 18px;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 .skill-description {
   color: #757575;
